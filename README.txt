@@ -1,0 +1,1 @@
+For more details, please look at: http://busypeoples.github.io/post/react-component-lifecycle/
