@@ -24,7 +24,7 @@
     <script type="text/babel">
 
     	writeToScreen('Initial', 'primary');
-debugger;
+
 		var Welcome = React.createClass({
 		  getInitialState: function() {
 		    writeToScreen('GetInitialState', 'info');
@@ -120,7 +120,7 @@ debugger;
 
 		function unmount() {
 		  writeToScreen('Unmounting', 'primary');
-		  React.unmountComponentAtNode(document.getElementById('app'));
+		  ReactDOM.unmountComponentAtNode(document.getElementById('app'));
 		  unmountBtn.remove();
 		}
 
@@ -131,6 +131,7 @@ debugger;
 		      msg +
 		    '</div>';
 		}
+
 
     </script>
 
